@@ -1,0 +1,6 @@
+web:
+  image: node-api
+  volumes:
+    - express:/app
+  ports:
+    - "4000:3000"
